@@ -26,6 +26,8 @@ Encryption: The file data is padded using PKCS7 to align with AES’s 16-byte bl
 Decryption: The tool extracts the salt and IV from the encrypted file, derives the key with the given password, and decrypts the ciphertext. It removes padding to restore the original data.
 
 GUI Interaction: Users interact with a Tkinter window to select the file, choose whether to encrypt or decrypt, and enter a password securely. Feedback is provided via message dialogs.
-![Image](https://github.com/user-attachments/assets/87d8bbe8-1676-44ca-bfe6-04b4f6e76c05)
-![Image](https://github.com/user-attachments/assets/5a4f214e-8ea3-463b-a2a7-7d4ef4867c03)
 ![Image](https://github.com/user-attachments/assets/252ac195-d920-4c86-b8ee-a029824e6202)
+![Image](https://github.com/user-attachments/assets/5a4f214e-8ea3-463b-a2a7-7d4ef4867c03)
+![Image](https://github.com/user-attachments/assets/87d8bbe8-1676-44ca-bfe6-04b4f6e76c05)
+
+
